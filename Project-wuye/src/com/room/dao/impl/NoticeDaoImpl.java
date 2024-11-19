@@ -8,14 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import com.room.dao.INoticeDao;
 import com.room.bean.Notice;
 import com.room.util.MybatisUtils;
-/**
- * 
- * @ClassName: NoticeDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:22:44
- * @param:
- */
+
 public class NoticeDaoImpl implements INoticeDao{
 	private static SqlSession session;
 	private static String statement;

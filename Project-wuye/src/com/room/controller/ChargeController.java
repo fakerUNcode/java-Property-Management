@@ -10,13 +10,7 @@ import com.room.bean.Charge;
 import com.room.service.IChargeService;
 import com.room.service.impl.ChargeServiceImpl;
 
-/**
- * @ClassName: ChargeController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:34:06
- * @param:
- */
+
 @Controller
 @RequestMapping("/charge")
 public class ChargeController{

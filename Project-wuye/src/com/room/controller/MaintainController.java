@@ -10,13 +10,7 @@ import com.room.bean.Maintain;
 import com.room.service.IMaintainService;
 import com.room.service.impl.MaintainServiceImpl;
 
-/**
- * @ClassName: MaintainController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:39:25
- * @param:
- */
+
 @Controller
 @RequestMapping("/maintain")
 public class MaintainController{

@@ -3,17 +3,11 @@ package com.room.service.impl;
 import java.util.List;
 
 import com.room.bean.Admin;
+import com.room.bean.CustomAccount;
 import com.room.dao.IAdminDao;
 import com.room.dao.impl.AdminDaoImpl;
 import com.room.service.IAdminService;
-/**
- * 
- * @ClassName: AdminServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:25:58
- * @param:
- */
+
 public class AdminServiceImpl  implements IAdminService{
 	
 	IAdminDao ad = new AdminDaoImpl();
@@ -42,5 +36,6 @@ public class AdminServiceImpl  implements IAdminService{
 	public void delete(String id) {
 		ad.delete(id);
 	}
+
 
 }

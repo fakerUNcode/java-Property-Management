@@ -6,14 +6,7 @@ import com.room.bean.CustomAccount;
 import com.room.dao.ICustomAccountDao;
 import com.room.dao.impl.CustomAccountDaoImpl;
 import com.room.service.ICustomAccountService;
-/**
- * 
- * @ClassName: CustomAccountServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:26:34
- * @param:
- */
+
 public class CustomAccountServiceImpl implements ICustomAccountService{
 	ICustomAccountDao cd = new CustomAccountDaoImpl();
 	

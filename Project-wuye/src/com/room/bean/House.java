@@ -1,12 +1,5 @@
 package com.room.bean;
 
-/**
- * @ClassName: House
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:21:42
- * @param:
- */
 public class House {
 	private int id;
 	private String num;

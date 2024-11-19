@@ -6,14 +6,7 @@ import com.room.bean.House;
 import com.room.dao.IHouseDao;
 import com.room.dao.impl.HouseDaoImpl;
 import com.room.service.IHouseService;
-/**
- * 
- * @ClassName: HouseServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:26:53
- * @param:
- */
+
 public class HouseServiceImpl implements IHouseService{
 	IHouseDao hdao=new HouseDaoImpl();
 	public List<House> findAllHouse() {

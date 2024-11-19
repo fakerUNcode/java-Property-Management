@@ -1,12 +1,6 @@
 package com.room.bean;
 
-/**
- * @ClassName: Maintain
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:22:35
- * @param:
- */
+
 public class Maintain {
 	private int id;
 	private String thing;

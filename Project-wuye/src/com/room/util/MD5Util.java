@@ -2,28 +2,23 @@ package com.room.util;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
-import sun.misc.BASE64Encoder;
+import java.util.Base64;
 
 /**
  * @ClassName: MD5Util
- * @Description:
- * @author: ÕÔÔ½³¬
- * @date: 2020Äê4ÔÂ14ÈÕ ÏÂÎç8:42:13
- * @param:
+ * @Description: MD5 åŠ å¯†å·¥å…·ç±»
  */
 public class MD5Util {
-	
-	public static String encode(String orgStr){
-		MessageDigest md = null;
-		try {
-			md = MessageDigest.getInstance("MD5");
-		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
-		}
-		byte[] dest = md.digest(orgStr.getBytes());
-		BASE64Encoder base = new BASE64Encoder();
-		return base.encode(dest);
-	}
-	
+    
+    public static String encode(String orgStr) {
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("MD5");
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        byte[] dest = md.digest(orgStr.getBytes());
+        // ä½¿ç”¨ Java æ ‡å‡† Base64 ç¼–ç 
+        return Base64.getEncoder().encodeToString(dest);
+    }
 }

@@ -8,14 +8,7 @@ import com.room.dao.impl.ChargeDaoImpl;
 import com.room.service.IChargeService;
 
 
-/**
- * 
- * @ClassName: ChargeServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:26:19
- * @param:
- */
+
 public class ChargeServiceImpl  implements IChargeService{
 	
 	IChargeDao ad = new ChargeDaoImpl();

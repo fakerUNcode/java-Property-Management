@@ -1,12 +1,6 @@
 package com.room.bean;
 
-/**
- * @ClassName: Charge
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:20:34
- * @param:
- */
+
 public class Charge {
 	private int id;
 	private Double metre;

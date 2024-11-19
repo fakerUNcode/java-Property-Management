@@ -8,14 +8,7 @@ import org.apache.ibatis.session.SqlSession;
 import com.room.dao.ICustomAccountDao;
 import com.room.bean.CustomAccount;
 import com.room.util.MybatisUtils;
-/**
- * 
- * @ClassName: CustomAccountDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:21:36
- * @param:
- */
+
 public class CustomAccountDaoImpl implements ICustomAccountDao{
 	private static SqlSession session;
 	private static String statement;
@@ -64,6 +57,7 @@ public class CustomAccountDaoImpl implements ICustomAccountDao{
 			CustomAccount c = session.selectOne(statement,customAccount);
 			return c;
 		}
+		
 	}
 
 

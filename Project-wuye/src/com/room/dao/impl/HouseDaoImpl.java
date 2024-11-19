@@ -7,14 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 import com.room.dao.IHouseDao;
 import com.room.bean.House;
 import com.room.util.MybatisUtils;
-/**
- * 
- * @ClassName: HouseDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:21:53
- * @param:
- */
+
 public class HouseDaoImpl implements IHouseDao{
 	private static SqlSession session;
 	private static String statement;

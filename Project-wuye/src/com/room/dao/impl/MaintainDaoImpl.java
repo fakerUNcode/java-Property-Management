@@ -10,14 +10,7 @@ import com.room.dao.IMaintainDao;
 import com.room.bean.Maintain;
 import com.room.util.MybatisUtils;
 
-/**
- * 
- * @ClassName: MaintainDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:22:27
- * @param:
- */
+
 	public class MaintainDaoImpl implements IMaintainDao{
 		
 		private static SqlSession session;

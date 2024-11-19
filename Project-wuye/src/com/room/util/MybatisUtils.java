@@ -7,13 +7,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 
-/**
- * @ClassName: MybatisUtils
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:42:38
- * @param:
- */
 public class MybatisUtils {
 	public static SqlSession getFactory(){
 		String resource = "conf.xml"; 

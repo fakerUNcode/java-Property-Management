@@ -11,13 +11,7 @@ import com.room.bean.Notice;
 import com.room.service.INoticeService;
 import com.room.service.impl.NoticeServiceImpl;
 
-/**
- * @ClassName: NoticeController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:40:15
- * @param:
- */
+
 @Controller
 @RequestMapping("/notice")
 public class NoticeController{

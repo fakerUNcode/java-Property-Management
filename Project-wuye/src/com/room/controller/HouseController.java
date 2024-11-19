@@ -10,13 +10,6 @@ import com.room.bean.House;
 import com.room.service.IHouseService;
 import com.room.service.impl.HouseServiceImpl;
 
-/**
- * @ClassName: HouseController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:37:59
- * @param:
- */
 @Controller
 @RequestMapping("/house")
 public class HouseController{

@@ -10,13 +10,7 @@ import com.room.bean.Inspection;
 import com.room.service.IInspectionService;
 import com.room.service.impl.InspectionServiceImpl;
 
-/**
- * @ClassName: InspectionController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:38:41
- * @param:
- */
+
 @Controller
 @RequestMapping("/inspection")
 public class InspectionController{

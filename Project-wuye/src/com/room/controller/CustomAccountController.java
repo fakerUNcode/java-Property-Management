@@ -11,13 +11,7 @@ import com.room.service.ICustomAccountService;
 import com.room.service.impl.CustomAccountServiceImpl;
 import com.room.util.MD5Util;
 
-/**
- * @ClassName: CustomAccountController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:36:37
- * @param:
- */
+
 @Controller
 @RequestMapping("/customAccount")
 public class CustomAccountController{

@@ -1,12 +1,6 @@
 package com.room.bean;
 
-/**
- * @ClassName: Notice
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:23:05
- * @param:
- */
+
 public class Notice {
 	private int id;
 	private String content;

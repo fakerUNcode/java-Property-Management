@@ -7,14 +7,7 @@ import com.room.dao.IMaintainDao;
 import com.room.dao.impl.MaintainDaoImpl;
 import com.room.service.IMaintainService;
 
-/**
- * 
- * @ClassName: MaintainServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:27:28
- * @param:
- */
+
 public class MaintainServiceImpl  implements IMaintainService{
 	
 	IMaintainDao ad = new MaintainDaoImpl();

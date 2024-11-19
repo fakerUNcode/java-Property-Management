@@ -9,14 +9,7 @@ import com.room.dao.IAdminDao;
 import com.room.bean.Admin;
 import com.room.util.MybatisUtils;
 
-/**
- * 
- * @ClassName: AdminDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:19:45
- * @param:
- */
+
 public class AdminDaoImpl implements IAdminDao{
 	private static SqlSession session;
 	private static String statement;

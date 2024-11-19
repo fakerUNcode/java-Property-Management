@@ -1,12 +1,6 @@
 package com.room.bean;
 
-/**
- * @ClassName: Admin
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:19:27
- * @param:
- */
+
 public class Admin {
 	private int id;
 	private String name;

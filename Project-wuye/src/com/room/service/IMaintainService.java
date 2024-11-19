@@ -4,14 +4,6 @@ import java.util.List;
 
 import com.room.bean.Maintain;
 
-/**
- * 
- * @ClassName: IMaintainService
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:25:16
- * @param:
- */
 public interface IMaintainService {
 	List<Maintain> findAllMaintains();
 	void save(Maintain a); 

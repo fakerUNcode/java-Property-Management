@@ -7,14 +7,7 @@ import com.room.bean.Notice;
 import com.room.dao.INoticeDao;
 import com.room.dao.impl.NoticeDaoImpl;
 import com.room.service.INoticeService;
-/**
- * 
- * @ClassName: NoticeServiceImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:27:52
- * @param:
- */
+
 public  class NoticeServiceImpl implements INoticeService{
 	INoticeDao notifydao=new NoticeDaoImpl();
 

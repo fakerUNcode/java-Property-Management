@@ -8,6 +8,7 @@
 <html>
 <head>
     <meta charset="utf-8">
+    
     <title>登录:物业管理系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
@@ -39,7 +40,7 @@
 
 </head>
 
-<body background='img/bg.png' style="background-repeat: no-repeat; background-size:cover; margin: auto;">
+<body background='img/bcg.jpg' style="background-repeat: no-repeat; background-size:cover; margin: auto;">
 <div class="ch-container">
     <div class="row">
         
@@ -90,6 +91,10 @@
                     <p class="center col-md-7">
                         <button type="submit" class="btn btn-primary">登录系统</button>
                     </p>
+                    <p class="center">
+    				<a href="register.jsp">还没有账号？点击注册</a>
+					</p>
+                    
                 </fieldset>
             </form>
         </div>

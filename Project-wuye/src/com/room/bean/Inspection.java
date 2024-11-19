@@ -1,12 +1,6 @@
 package com.room.bean;
 
-/**
- * @ClassName: Inspection
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:22:06
- * @param:
- */
+
 public class Inspection {
 	private int id;
 	private String person;

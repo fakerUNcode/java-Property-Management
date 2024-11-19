@@ -9,14 +9,7 @@ import com.room.dao.IChargeDao;
 import com.room.bean.Charge;
 import com.room.util.MybatisUtils;
 
-/**
- * 
- * @ClassName: ChargeDaoImpl
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午9:20:05
- * @param:
- */
+
 	public class ChargeDaoImpl implements IChargeDao{
 		private static SqlSession session;
 		private static String statement;

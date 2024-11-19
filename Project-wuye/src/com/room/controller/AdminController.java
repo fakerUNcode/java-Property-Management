@@ -17,13 +17,7 @@ import com.room.service.IAdminService;
 import com.room.service.impl.AdminServiceImpl;
 import com.room.util.MD5Util;
 
-/**
- * @ClassName: AdminController
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:28:33
- * @param:
- */
+
 @Controller
 @RequestMapping("/admin")
 public class AdminController{

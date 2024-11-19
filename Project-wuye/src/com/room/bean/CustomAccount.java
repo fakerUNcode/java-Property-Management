@@ -1,12 +1,5 @@
 package com.room.bean;
 
-/**
- * @ClassName: CustomAccount
- * @Description:
- * @author: 赵越超
- * @date: 2020年4月14日 下午8:21:10
- * @param:
- */
 public class CustomAccount {
 	private int accountid;
 	private String username;
